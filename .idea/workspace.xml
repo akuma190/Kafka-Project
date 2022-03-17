@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b57257-d277-41a5-89d1-d747e3e83633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemoAssignSeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemoGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoWithCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +120,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628354161007</updated>
-      <workItem from="1628354164281" duration="8805000" />
+      <workItem from="1628354164281" duration="12108000" />
+      <workItem from="1629077596179" duration="1563000" />
+      <workItem from="1629223951763" duration="331000" />
+      <workItem from="1629254748958" duration="595000" />
+      <workItem from="1630195535779" duration="2000" />
+      <workItem from="1647475329162" duration="1239000" />
     </task>
     <servers />
   </component>
@@ -134,21 +133,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1628375228404">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1647475332226">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628375228404" />
-    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1628375228403">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628375228403" />
-    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1628375228403">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628375228403" />
-    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1628375228403">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628375228403" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1647475332226" />
   </component>
 </project>
