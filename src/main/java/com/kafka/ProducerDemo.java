@@ -10,7 +10,8 @@ import java.util.Properties;
 public class ProducerDemo {
     public static void main(String[] args){
         String bootstrapServers="127.0.0.1:9092";
-        //create producer properties
+
+        // Step 1 : create producer properties
         Properties properties=new Properties();
 //        properties.setProperty("bootstrap.servers",bootstrapServers);
         //key and values serializer lets you know what type of values are you sending
