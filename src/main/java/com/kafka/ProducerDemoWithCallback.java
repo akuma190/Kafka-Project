@@ -22,7 +22,7 @@ public class ProducerDemoWithCallback {
         KafkaProducer<String,String> producer=new KafkaProducer<String, String>(properties);
         ProducerRecord<String,String> record=new ProducerRecord<String, String>("first_topic","hello world 1");
 
-        //here apard from record we can also provide a callback
+        //here apart from record we can also provide a callback
         producer.send(record, new Callback() {
             public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                 //executes everytime a record is successfully sent or an exception occurs
