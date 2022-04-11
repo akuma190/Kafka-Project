@@ -20,7 +20,7 @@ public class ProducerDemoWithCallback {
         properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,StringSerializer.class.getName());
 
         KafkaProducer<String,String> producer=new KafkaProducer<String, String>(properties);
-        ProducerRecord<String,String> record=new ProducerRecord<String, String>("first_topic","hello world 1");
+        ProducerRecord<String,String> record=new ProducerRecord<String, String>("first_topic1","hello world 1");
 
         //here apart from record we can also provide a callback
         producer.send(record, new Callback() {
@@ -31,9 +31,11 @@ public class ProducerDemoWithCallback {
                     logger.info("Received message \n"+
                             "Topic : " +recordMetadata.topic()+"\n"+
                             "offset : "+recordMetadata.offset()+"\n"+
-                            "Topic : " +recordMetadata.partition()+"\n");
-                }else{
+                            "Partition : " +recordMetadata.partition()+"\n"+
+                            "Timestamp : " +recordMetadata.timestamp()+"\n");
 
+                }else{
+                    logger.error("error while producing : ",e);
                 }
             }
         });

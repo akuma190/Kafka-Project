@@ -24,11 +24,12 @@ public class ProducerDemoKeys {
 
         for(int i=0;i<=10;i++){
             //while creating the producer record,we should keep in mind that the producer record has the key.
-            String topic="first_topic";
+            String topic="first_topic1";
             String value="hello World "+Integer.toString(i);
             String key="Key "+Integer.toString(i);
 
             logger.info("Key" +key);
+            //here there is an extra parameter key added
             ProducerRecord<String,String> record=new ProducerRecord<String, String>(topic,key,value);
 
             //here apard from record we can also provide a callback
@@ -40,9 +41,19 @@ public class ProducerDemoKeys {
                         logger.info("Received message \n"+
                                 "Topic : " +recordMetadata.topic()+"\n"+
                                 "offset : "+recordMetadata.offset()+"\n"+
-                                "Topic : " +recordMetadata.partition()+"\n");
-                    }else{
+                                "Partition : " +recordMetadata.partition()+"\n"+
+                                "Timestamp : " +recordMetadata.timestamp()+"\n");
 
+                    }else{
+                        logger.error("error while producing : ",e);
+                    }
+
+                    //this is to wait for some time so that produces does not
+                    //batches everything into one.
+                    try{
+                        Thread.sleep(1000);
+                    }catch(InterruptedException ee){
+                        ee.printStackTrace();
                     }
                 }
             }).get();//here we are blocking it and making it as synchronous

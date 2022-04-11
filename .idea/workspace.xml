@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b57257-d277-41a5-89d1-d747e3e83633" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemoCooperative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemoGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ConsumerDemoShutdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/ProducerDemoWithCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoKeys$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoKeys$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/ProducerDemoWithCallback.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +40,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemoGroups">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProducerDemoKeys">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kafka.ConsumerDemo" />
       <module name="Kafka-Project" />
@@ -48,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerDemoGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kafka.ConsumerDemoGroups" />
+    <configuration name="ConsumerDemoShutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.ConsumerDemoShutdown" />
       <module name="Kafka-Project" />
       <extension name="coverage">
         <pattern>
@@ -102,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerDemoGroups" />
         <item itemvalue="Application.ProducerDemoKeys" />
-        <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemo" />
+        <item itemvalue="Application.ConsumerDemoShutdown" />
+        <item itemvalue="Application.ConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +140,8 @@
       <workItem from="1629223951763" duration="331000" />
       <workItem from="1629254748958" duration="595000" />
       <workItem from="1630195535779" duration="2000" />
-      <workItem from="1647475329162" duration="1239000" />
+      <workItem from="1647475329162" duration="11726000" />
+      <workItem from="1649636040209" duration="189000" />
     </task>
     <servers />
   </component>
@@ -133,9 +149,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1647475332226">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1649636181430">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1647475332226" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1649636181430" />
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1647480923296">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1647480923296" />
+    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1647480923296">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1647480923296" />
+    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1647480923296">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1647480923296" />
+    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1647480923296">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1647480923296" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1649636041122">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1649636041122" />
+    <state x="209" y="110" key="new project wizard" timestamp="1649636186962">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="209" y="110" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1649636186962" />
   </component>
 </project>
